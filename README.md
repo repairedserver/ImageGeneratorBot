@@ -4,8 +4,8 @@
 
 텍스트로 이미지를 생성할 수 있다고 알려진 Stable Diffusion 모델을 디스코드 봇으로 사용할 수 있습니다. </br>
 원본 모델은 [CompVis](https://github.com/CompVis/stable-diffusion)이며 경량화된 모델은 [여기](https://github.com/basujindal/stable-diffusion)에서 사용할 수 있습니다. </br>
-그래픽카드 VRAM이 4GB 미만이라면 경량화 모델을 사용하세요. </br> </br>
-[디스코드 주소](discord.gg/vSQMkCNZc2)
+그래픽카드 VRAM이 4GB 미만이라면 경량화 모델(OptimizedSD)을 사용하세요. </br> </br>
+**[디스코드 주소](discord.gg/vSQMkCNZc2)**
 
 ## 필수
 - 윈도우 (MacOS 안됨)
@@ -15,11 +15,11 @@
 
 ## 모델 다운로드
 사용하기 위해서는 먼저 [HuggingFace](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original)(로그인 필수)에서 sd-v1-4.ckpt(4GB) 모델 파일을 받아야 합니다. </br>
-모델을 다운로드 받았다면 이름을 **model.ckpt**로 변경한 뒤 **/models/ldm/stable-diffusion-v1** 폴더 안에 넣으세요. </br>
+모델을 다운로드 받았다면 이름을 **model.ckpt**로 변경한 뒤 **/models/ldm/stable-diffusion-v1** 폴더 안에 넣어주세요. </br>
 
 ## 아나콘다 세팅
 cmd 창을 키고 **cd C:\뭐시기뭐시기\StableDIffusion_DiscordBot** 로 경로를 옮겨주신 뒤 아나콘다를 실행하고 </br>
-**conda env create -f environment.yaml**을 입력해 가상환경을 만들어 주세요. 생성된 가상환경의 이름은 ldm </br>
+**conda env create -f environment.yaml**을 입력해 가상환경을 만들어 주세요. 생성된 가상환경의 이름은 ldm입니다 </br>
 파이썬 버전이 **3.8.5**가 아니라면 정상적인 작동이 되지 않습니다. </br>
 
 ## 사용
