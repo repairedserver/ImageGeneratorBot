@@ -9,7 +9,6 @@
 - 윈도우 (MacOS 안됨)
 - VRAM이 최소 4GB 이상이 되는 그래픽 카드
 - anaconda3 가상환경
-- 자기 소유의 디스코드 봇 
 ---
 
 ### 모델 다운로드
@@ -22,5 +21,8 @@ cmd 창을 키고 **cd C:\뭐시기뭐시기\StableDIffusion_DiscordBot** 로 �
 파이썬 버전이 **3.8.5**가 아니라면 정상적인 작동이 되지 않습니다. </br>
 
 ### 사용
-[디스코드 개발자 어플리케이션](https://discord.com/developers/applications/)에 들어가 **New Application**을 선택하고 이름을 지어 봇을 만들어줍니다. </br>
+[디스코드 개발자 어플리케이션](https://discord.com/developers/applications/)에 들어가 **New Application**을 선택하고 이름을 지어 앱을 만들어줍니다. </br>
+![](https://user-images.githubusercontent.com/101509164/221389149-a3b5c7d7-d00e-4456-a39e-661b64f6a912.png) </br>
+![](https://user-images.githubusercontent.com/101509164/221389164-a85747c1-bb1b-4bb7-aa12-900fa5a35769.png)
+다음으로 좌측의 Bot 카테고리에 들어가 Add Bot을 선택해주고 위와 같이 봇 설정들을 체크해 줍니다.
 VSCode나 PyCharm등의 IDEA를 이용해 DiscordBot.py를 실행한 뒤 터미널에 **python DiscordBot.py**를 입력해주시면 작동이 됩니다.
