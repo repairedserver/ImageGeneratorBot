@@ -8,4 +8,5 @@
 - anaconda3 가상환경
 - 자기 소유의 디스코드 봇 
 
-사용하기 위해서는 먼저 [HuggingFace](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original)(로그인 필수)에서 sd-v1-4.ckpt(4GB) 모델 파일을 받아야 합니다.
+사용하기 위해서는 먼저 [HuggingFace](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original)(로그인 필수)에서 sd-v1-4.ckpt(4GB) 모델 파일을 받아야 합니다. </br>
+모델을 다운로드 받았다면 이름을 model.ckpt로 변경하고 폴더 /models/ldm/stable-diffusion-v1 폴더 안에 넣어주세요.
