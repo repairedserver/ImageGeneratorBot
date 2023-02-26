@@ -18,7 +18,7 @@
 모델을 다운로드 받았다면 이름을 **model.ckpt**로 변경한 뒤 **/models/ldm/stable-diffusion-v1** 폴더 안에 넣으세요. </br>
 
 ## 아나콘다 세팅
-cmd 창을 키고 **cd C:\뭐시기뭐시기\StableDIffusion_DiscordBot** 로 폴더를 옮겨주신 뒤 아나콘다를 실행하고 </br>
+cmd 창을 키고 **cd C:\뭐시기뭐시기\StableDIffusion_DiscordBot** 로 경로를 옮겨주신 뒤 아나콘다를 실행하고 </br>
 **conda env create -f environment.yaml**을 입력해 가상환경을 만들어 주세요. 생성된 가상환경의 이름은 ldm </br>
 파이썬 버전이 **3.8.5**가 아니라면 정상적인 작동이 되지 않습니다. </br>
 
