@@ -35,3 +35,9 @@ cmd 창을 키고 **cd C:\뭐시기뭐시기\StableDIffusion_DiscordBot** 로 �
 ID 복사하기가 있는데 복사한 뒤 get_channel() 안의 작은따옴표를 제거하고 복붙해주시면 됩니다. </br> </br> </br>
 
 마지막으로 VSCode나 PyCharm등의 IDEA를 이용해 DiscordBot.py를 실행한 뒤 터미널에 **python DiscordBot.py**를 입력해주시면 작동이 됩니다.
+
+- 만들어지는 사진의 크기는 512 x 512
+- 사진의 퀄리티를 높이고 싶다면 더 자세한 키워드 삽입
+- 최대 대기열은 10개까지
+- 이미지 만들기 : !makeimg "대충 문장 형식의 키워드"
+  ex) !makeimg "An astronaut riding a horse on Mars"
