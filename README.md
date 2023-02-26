@@ -27,6 +27,10 @@ cmd 창을 키고 **cd C:\뭐시기뭐시기\StableDIffusion_DiscordBot** 로 �
 다음으로 좌측의 Bot 카테고리에 들어가 Add Bot을 선택해주고 위와 같이 봇 설정들을 체크해 줍니다. </br> </br> </br>
 
 ![](https://user-images.githubusercontent.com/101509164/221389284-af0b30c9-2025-4a1c-ba9a-2f782fec9642.png)
-설정을 끝내고 봇 아래의 View Token이나 Reset Token으로 봇 토큰을 복사한 뒤 DiscordBot.py에 사용할 봇의 토큰을 복붙해주세요. </br> </br>
-좌측 OAuth2 카테고리의 URL Generator에 들어가 bot을 선택해 준 뒤 아까와 같이 선택해 주고 링크를 브라우저 창에 복붙해 서버에 봇을 초대해주세요. </br>
+설정을 끝내고 봇 아래의 View Token이나 Reset Token으로 봇 토큰을 복사한 뒤 DiscordBot.py에 사용할 봇의 토큰을 복붙해주세요. </br>
+좌측 OAuth2의 URL Generator에 들어가 bot을 선택해 준 뒤 아까와 같이 선택하고 링크를 인터넷 창에 복붙해 서버에 봇을 초대해주세요. </br>
+
+![](https://user-images.githubusercontent.com/101509164/221389436-c59b4a03-7323-4e89-ab7f-5d58e803af4b.png)
+그리고 DiscordBot.py의 save_path에 사진 저장 경로를 지정해준 뒤 디스코드 설정->고급->개발자 모드를 켜 주시고 서버 채팅 채널을 우클릭하면 </br> 
+ID 복사하기가 있는데 복사한 뒤 get_channel() 작은따옴표를 제거하고 안에 복붙해주시면 됩니다. </br> </br>
 VSCode나 PyCharm등의 IDEA를 이용해 DiscordBot.py를 실행한 뒤 터미널에 **python DiscordBot.py**를 입력해주시면 작동이 됩니다.
