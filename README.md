@@ -32,5 +32,6 @@ cmd 창을 키고 **cd C:\뭐시기뭐시기\StableDIffusion_DiscordBot** 로 �
 
 ![](https://user-images.githubusercontent.com/101509164/221389436-c59b4a03-7323-4e89-ab7f-5d58e803af4b.png)
 그리고 DiscordBot.py의 save_path에 사진 저장 경로를 지정해준 뒤 디스코드 설정->고급->개발자 모드를 켜 주시고 서버 채팅 채널을 우클릭하면 </br> 
-ID 복사하기가 있는데 복사한 뒤 get_channel() 작은따옴표를 제거하고 안에 복붙해주시면 됩니다. </br> </br>
-VSCode나 PyCharm등의 IDEA를 이용해 DiscordBot.py를 실행한 뒤 터미널에 **python DiscordBot.py**를 입력해주시면 작동이 됩니다.
+ID 복사하기가 있는데 복사한 뒤 get_channel() 안의 작은따옴표를 제거하고 복붙해주시면 됩니다. </br> </br> </br>
+
+마지막으로 VSCode나 PyCharm등의 IDEA를 이용해 DiscordBot.py를 실행한 뒤 터미널에 **python DiscordBot.py**를 입력해주시면 작동이 됩니다.
