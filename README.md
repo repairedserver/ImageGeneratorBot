@@ -40,4 +40,4 @@ ID 복사하기가 있는데 복사한 뒤 get_channel() 안의 작은따옴표�
 - 사진의 퀄리티를 높이고 싶다면 더 자세한 키워드 삽입
 - 최대 대기열은 10개까지
 - 이미지 만들기 : !makeimg "대충 문장 형식의 키워드"
-  ex) !makeimg "An astronaut riding a horse on Mars"
+- ex) !makeimg "An astronaut riding a horse on Mars"
