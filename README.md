@@ -26,7 +26,6 @@ $ conda env create -f environment.yaml
 ## 아나콘다 세팅
 cmd 창을 키고 **cd C:\뭐시기뭐시기\StableDIffusion_DiscordBot** 로 경로를 옮겨주신 뒤 아나콘다를 실행하고 </br>
 **conda env create -f environment.yaml**을 입력해 가상환경을 만들어 주세요. 생성된 가상환경의 이름은 ldm입니다 </br>
-파이썬 버전이 **3.8.5**가 아니라면 정상적인 작동이 되지 않습니다. </br>
 
 ## 사용
 [디스코드 개발자 어플리케이션](https://discord.com/developers/applications/)에 들어가 **New Application**을 선택하고 이름을 지어 앱을 만들어줍니다. </br> </br>
