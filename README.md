@@ -1,4 +1,4 @@
-# StableDiffusion_DiscordBot
+# ImageGeneratorBot
 
 ![](https://user-images.githubusercontent.com/101509164/221388737-5efbf8dc-d59a-4ab4-8770-863f96dc6f17.jpg)
 
@@ -7,8 +7,8 @@
 그래픽카드 VRAM이 4GB 미만이라면 경량화 모델(OptimizedSD)을 사용하세요. </br> </br>
 
 ```
-$ git clone https://github.com/repairedserver/StableDiffusion_DiscordBot.git
-$ cd C:\뭐시기뭐시기\StableDIffusion_DiscordBot
+$ git clone https://github.com/repairedserver/ImageGeneratorBot.git
+$ cd C:\뭐시기뭐시기\ImageGeneratorBot
 $ conda env create -f environment.yaml
 ```
 
@@ -24,7 +24,7 @@ $ conda env create -f environment.yaml
 모델을 다운로드 받았다면 이름을 **model.ckpt**로 변경한 뒤 **/models/ldm/stable-diffusion-v1** 폴더 안에 넣어주세요. </br>
 
 ## 아나콘다 세팅
-cmd 창을 키고 **cd C:\뭐시기뭐시기\StableDIffusion_DiscordBot** 로 경로를 옮겨주신 뒤 아나콘다를 실행하고 </br>
+cmd 창을 키고 **cd C:\뭐시기뭐시기\ImageGeneratorBot** 로 경로를 옮겨주신 뒤 아나콘다를 실행하고 </br>
 **conda env create -f environment.yaml**을 입력해 가상환경을 만들어 주세요. 생성된 가상환경의 이름은 ldm입니다 </br>
 
 ## 사용
